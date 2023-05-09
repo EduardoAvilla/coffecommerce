@@ -1,0 +1,31 @@
+#service{
+    height: 100vh;
+    position: relative;
+}
+ .card-group{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+.text-special{
+    text-decoration-color: #FF902A;
+    text-decoration-line: underline;
+  }  
+
+   
+  
+  .card {
+    width: 90%;
+    margin: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .card {
+      width: 30%;
+    }
+  }
+  #service {
+    width: 100%;
+    /* remover position-relative */
+  }

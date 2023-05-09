@@ -1,0 +1,20 @@
+#header {
+  height: 100vh;
+  background-color: #f6ebda;
+ }
+
+#primary {
+  height: 100vh;
+}
+#secundary {
+  height: 100vh;
+}
+#header {
+    
+  background-image: url('../../assets/img/cafe.png'), url('../../assets/img/cafe.png');
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30% auto;
+  
+    }
+ 
